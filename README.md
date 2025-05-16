@@ -125,6 +125,3 @@ Visit [http://localhost:5000/swagger](http://localhost:5000/swagger) to explore 
 
 ---
 
-📄 **License**
-
-This project is licensed under the MIT License.
