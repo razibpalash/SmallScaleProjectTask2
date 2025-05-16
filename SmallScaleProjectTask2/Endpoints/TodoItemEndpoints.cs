@@ -9,10 +9,10 @@ public static class TodoItemEndpoints
     private static readonly ConcurrentDictionary<Guid, TodoItem> todos = new()
     {
         [Guid.NewGuid()] = new TodoItem(Guid.NewGuid(), "Test Data 1", false, DateTime.UtcNow),
-        [Guid.NewGuid()] = new TodoItem(Guid.NewGuid(), "Test Data 2", true, DateTime.UtcNow.AddDays(-1)),
+        [Guid.NewGuid()] = new TodoItem(Guid.NewGuid(), "Test Data 2", true, DateTime.UtcNow.AddHours(-1)),
         [Guid.NewGuid()] = new TodoItem(Guid.NewGuid(), "Test Data 3", false, DateTime.UtcNow.AddHours(-2)),
-        [Guid.NewGuid()] = new TodoItem(Guid.NewGuid(), "Test Data 3", false, DateTime.UtcNow.AddHours(-3)),
-        [Guid.NewGuid()] = new TodoItem(Guid.NewGuid(), "Test Data 4", false, DateTime.UtcNow.AddHours(-4)),
+        [Guid.NewGuid()] = new TodoItem(Guid.NewGuid(), "Test Data 3", true, DateTime.UtcNow.AddHours(-3)),
+        [Guid.NewGuid()] = new TodoItem(Guid.NewGuid(), "Test Data 4", true, DateTime.UtcNow.AddHours(-4)),
         [Guid.NewGuid()] = new TodoItem(Guid.NewGuid(), "Test Data 5", false, DateTime.UtcNow.AddHours(-5))
     };
 
