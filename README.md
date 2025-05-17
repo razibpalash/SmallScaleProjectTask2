@@ -28,8 +28,8 @@ Additionally, Swagger is integrated for interactive API documentation.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/todo-api.git
-   cd todo-api
+   git clone https://github.com/razibpalash/SmallScaleProjectTask2.git
+   cd SmallScaleProjectTask2
    ```
 
 2. Restore packages:
